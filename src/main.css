@@ -3,9 +3,18 @@
   padding: 0;
 }
 
+.gallery-img {
+  width: 100%;
+}
+
 .gallery-text {
+  margin-top: 70px;
   color: red;
-  text-align: center;
+}
+
+.gallery-wrap {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .gallery-cards {
@@ -18,11 +27,18 @@
 }
 
 .card-item {
+  margin-right: 20px;
   margin-top: 10px;
   border: 1px solid lightgrey;
 }
 
 .card-text {
   text-align: center;
+}
+
+.card-aud {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */

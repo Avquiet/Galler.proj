@@ -22,9 +22,8 @@ const infoCard = (card) => {
                 <p class="card-text">${card.title}</p>
                 <audio class="card-aud" src="${card.audio}" controls></audio>
                 <video src="${card.video}" width="360" height="420" controls></video>
-            </div>
-            `
-        };
+            </div>`
+};
 
 const runCard = list => {
     document.querySelector('.gallery-cards').innerHTML = list.map(item => infoCard(item)).join('');
